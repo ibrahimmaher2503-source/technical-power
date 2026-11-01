@@ -1,0 +1,401 @@
+[
+  {
+    "file": "breaker-small.webp",
+    "width": 320,
+    "height": 187,
+    "bytes": 7434,
+    "quality": 84
+  },
+  {
+    "file": "breaker.webp",
+    "width": 640,
+    "height": 374,
+    "bytes": 22964,
+    "quality": 84
+  },
+  {
+    "file": "breaker-large.webp",
+    "width": 1280,
+    "height": 749,
+    "bytes": 98332,
+    "quality": 84
+  },
+  {
+    "file": "engineers-small.webp",
+    "width": 320,
+    "height": 142,
+    "bytes": 9900,
+    "quality": 84
+  },
+  {
+    "file": "engineers.webp",
+    "width": 640,
+    "height": 284,
+    "bytes": 28566,
+    "quality": 84
+  },
+  {
+    "file": "engineers-large.webp",
+    "width": 1280,
+    "height": 569,
+    "bytes": 75228,
+    "quality": 84
+  },
+  {
+    "file": "after-small.webp",
+    "width": 320,
+    "height": 249,
+    "bytes": 19058,
+    "quality": 84
+  },
+  {
+    "file": "after.webp",
+    "width": 640,
+    "height": 499,
+    "bytes": 58310,
+    "quality": 84
+  },
+  {
+    "file": "after-large.webp",
+    "width": 1280,
+    "height": 997,
+    "bytes": 152042,
+    "quality": 84
+  },
+  {
+    "file": "before-small.webp",
+    "width": 320,
+    "height": 254,
+    "bytes": 21114,
+    "quality": 82
+  },
+  {
+    "file": "before.webp",
+    "width": 640,
+    "height": 507,
+    "bytes": 55978,
+    "quality": 78
+  },
+  {
+    "file": "before-large.webp",
+    "width": 1280,
+    "height": 1015,
+    "bytes": 167800,
+    "quality": 82
+  },
+  {
+    "file": "control-small.webp",
+    "width": 320,
+    "height": 201,
+    "bytes": 15044,
+    "quality": 84
+  },
+  {
+    "file": "control.webp",
+    "width": 640,
+    "height": 401,
+    "bytes": 42980,
+    "quality": 84
+  },
+  {
+    "file": "control-large.webp",
+    "width": 1280,
+    "height": 802,
+    "bytes": 111560,
+    "quality": 84
+  },
+  {
+    "file": "maintenance-small.webp",
+    "width": 320,
+    "height": 204,
+    "bytes": 14284,
+    "quality": 84
+  },
+  {
+    "file": "maintenance.webp",
+    "width": 640,
+    "height": 408,
+    "bytes": 42646,
+    "quality": 84
+  },
+  {
+    "file": "maintenance-large.webp",
+    "width": 1280,
+    "height": 816,
+    "bytes": 116252,
+    "quality": 84
+  },
+  {
+    "file": "panels-small.webp",
+    "width": 320,
+    "height": 196,
+    "bytes": 15868,
+    "quality": 84
+  },
+  {
+    "file": "panels.webp",
+    "width": 640,
+    "height": 392,
+    "bytes": 48340,
+    "quality": 84
+  },
+  {
+    "file": "panels-large.webp",
+    "width": 1280,
+    "height": 785,
+    "bytes": 135926,
+    "quality": 84
+  },
+  {
+    "file": "cables-small.webp",
+    "width": 320,
+    "height": 122,
+    "bytes": 13642,
+    "quality": 84
+  },
+  {
+    "file": "cables.webp",
+    "width": 640,
+    "height": 244,
+    "bytes": 45564,
+    "quality": 84
+  },
+  {
+    "file": "cables-large.webp",
+    "width": 1280,
+    "height": 489,
+    "bytes": 133852,
+    "quality": 84
+  },
+  {
+    "file": "transformer-small.webp",
+    "width": 320,
+    "height": 126,
+    "bytes": 15650,
+    "quality": 84
+  },
+  {
+    "file": "transformer.webp",
+    "width": 640,
+    "height": 251,
+    "bytes": 55140,
+    "quality": 84
+  },
+  {
+    "file": "transformer-large.webp",
+    "width": 1280,
+    "height": 503,
+    "bytes": 170388,
+    "quality": 84
+  },
+  {
+    "file": "water-small.webp",
+    "width": 320,
+    "height": 231,
+    "bytes": 17164,
+    "quality": 84
+  },
+  {
+    "file": "water.webp",
+    "width": 640,
+    "height": 463,
+    "bytes": 53952,
+    "quality": 84
+  },
+  {
+    "file": "water-large.webp",
+    "width": 1280,
+    "height": 925,
+    "bytes": 165010,
+    "quality": 84
+  },
+  {
+    "file": "treatment-small.webp",
+    "width": 320,
+    "height": 199,
+    "bytes": 21280,
+    "quality": 80
+  },
+  {
+    "file": "treatment.webp",
+    "width": 640,
+    "height": 398,
+    "bytes": 59076,
+    "quality": 66
+  },
+  {
+    "file": "treatment-large.webp",
+    "width": 1280,
+    "height": 797,
+    "bytes": 177032,
+    "quality": 64
+  },
+  {
+    "file": "office-small.webp",
+    "width": 320,
+    "height": 586,
+    "bytes": 21936,
+    "quality": 62
+  },
+  {
+    "file": "office.webp",
+    "width": 640,
+    "height": 1172,
+    "bytes": 59942,
+    "quality": 72
+  },
+  {
+    "file": "office-large.webp",
+    "width": 1280,
+    "height": 2343,
+    "bytes": 178962,
+    "quality": 84
+  },
+  {
+    "file": "ahmed-small.webp",
+    "width": 320,
+    "height": 294,
+    "bytes": 12218,
+    "quality": 84
+  },
+  {
+    "file": "ahmed.webp",
+    "width": 640,
+    "height": 588,
+    "bytes": 34920,
+    "quality": 84
+  },
+  {
+    "file": "ahmed-large.webp",
+    "width": 1280,
+    "height": 1176,
+    "bytes": 95382,
+    "quality": 84
+  },
+  {
+    "file": "khaled-small.webp",
+    "width": 320,
+    "height": 297,
+    "bytes": 13032,
+    "quality": 84
+  },
+  {
+    "file": "khaled.webp",
+    "width": 640,
+    "height": 594,
+    "bytes": 36488,
+    "quality": 84
+  },
+  {
+    "file": "khaled-large.webp",
+    "width": 1280,
+    "height": 1188,
+    "bytes": 95492,
+    "quality": 84
+  },
+  {
+    "file": "omar-small.webp",
+    "width": 320,
+    "height": 300,
+    "bytes": 10618,
+    "quality": 84
+  },
+  {
+    "file": "omar.webp",
+    "width": 640,
+    "height": 600,
+    "bytes": 27598,
+    "quality": 84
+  },
+  {
+    "file": "omar-large.webp",
+    "width": 1280,
+    "height": 1200,
+    "bytes": 72850,
+    "quality": 84
+  },
+  {
+    "file": "sara-small.webp",
+    "width": 320,
+    "height": 287,
+    "bytes": 9276,
+    "quality": 84
+  },
+  {
+    "file": "sara.webp",
+    "width": 640,
+    "height": 574,
+    "bytes": 22740,
+    "quality": 84
+  },
+  {
+    "file": "sara-large.webp",
+    "width": 1280,
+    "height": 1149,
+    "bytes": 66166,
+    "quality": 84
+  },
+  {
+    "file": "switchgear-small.webp",
+    "width": 320,
+    "height": 249,
+    "bytes": 19058,
+    "quality": 84
+  },
+  {
+    "file": "switchgear.webp",
+    "width": 640,
+    "height": 499,
+    "bytes": 58310,
+    "quality": 84
+  },
+  {
+    "file": "switchgear-large.webp",
+    "width": 1280,
+    "height": 997,
+    "bytes": 152042,
+    "quality": 84
+  },
+  {
+    "file": "technician-small.webp",
+    "width": 320,
+    "height": 204,
+    "bytes": 14284,
+    "quality": 84
+  },
+  {
+    "file": "technician.webp",
+    "width": 640,
+    "height": 408,
+    "bytes": 42646,
+    "quality": 84
+  },
+  {
+    "file": "technician-large.webp",
+    "width": 1280,
+    "height": 816,
+    "bytes": 116252,
+    "quality": 84
+  },
+  {
+    "file": "testing-small.webp",
+    "width": 320,
+    "height": 201,
+    "bytes": 15044,
+    "quality": 84
+  },
+  {
+    "file": "testing.webp",
+    "width": 640,
+    "height": 401,
+    "bytes": 42980,
+    "quality": 84
+  },
+  {
+    "file": "testing-large.webp",
+    "width": 1280,
+    "height": 802,
+    "bytes": 111560,
+    "quality": 84
+  }
+]

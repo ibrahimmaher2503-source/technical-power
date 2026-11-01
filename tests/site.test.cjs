@@ -60,3 +60,20 @@ test('home groups statistics after the about preview with only the selected lang
   assert.equal(run('bi("العربية","English")'),`<span class="bi " lang="${locale}" dir="${locale==='ar'?'rtl':'ltr'}">${locale==='ar'?'العربية':'English'}</span>`);
  }
 });
+test('responsive image variants exist and respect their file-size budgets',()=>{
+ const images=JSON.parse(fs.readFileSync(path.join(__dirname,'../qa/image-sizes.json'),'utf8'));
+ assert.equal(images.length,57);
+ const budgets={320:22000,640:60000,1280:180000};
+ for(const image of images){
+  const file=path.join(__dirname,'../dist/assets',image.file);
+  assert.equal(fs.statSync(file).size,image.bytes);
+  assert.ok(image.bytes<=budgets[image.width],`${image.file} exceeds budget`);
+ }
+ const {run}=app();const html=run('photo("water","Water treatment plant")');
+ assert.match(html,/srcset="assets\/water-small.webp 320w, assets\/water.webp 640w, assets\/water-large.webp 1280w"/);
+ assert.match(html,/loading="lazy"/);assert.match(html,/decoding="async"/);
+ for(const [,name] of run('home()').matchAll(/src="assets\/([^".]+)\.webp"/g)){
+  if(name==='logo')continue;
+  for(const suffix of ['-small','','-large'])assert.ok(fs.existsSync(path.join(__dirname,'../dist/assets',`${name}${suffix}.webp`)));
+ }
+});

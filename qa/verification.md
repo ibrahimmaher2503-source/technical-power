@@ -14,3 +14,12 @@
 - Rechecked all eight pages in both languages at widths 390, 768, and 1366: 48 combinations, zero horizontal-overflow, mixed-locale, or broken-loaded-image findings. Reviewed the Arabic desktop homepage and both language versions at the actual preview size.
 
 Limits: no actual email was sent; no CV was uploaded; no physical-device or assistive-technology session was run. Company contact details, sample jobs, partner relationships, testimonials, project metrics, and legal text are not verified business facts. Photo resolution is limited by the supplied screenshot crops. The styled map links to an area search; it does not establish an exact office location. This is a static UI implementation, not a backend/CMS.
+
+## Image enhancement
+
+- Restored the photographic assets from 16 distinct source crops using imagegen, with three shared masters for near-identical crops. Logo remains original.
+- Exported 57 WebP variants: 19 each at 320, 640 and 1280 px. Small variants average 14 KB; standard variants average 43 KB; largest file is about 175 KB. Total deployed photographic files: 3.35 MiB across all sizes; each image element selects one size.
+- Matching hero preload/media rules, responsive `srcset` and lazy auto sizing, asynchronous decoding, and larger images on gallery open.
+- `npm test`: 8/8 pass, including image variant existence and byte budgets. Exporter verified every output image's format and dimensions.
+- Browser reviewed all eight pages at the actual preview viewport: no broken loaded images, no horizontal overflow, all main photographs responsive. Confirmed actual selection of small card variants and large About image; confirmed enlarged water gallery loads `water-large.webp`.
+- AI enhancement reconstructs details from tiny sources and cannot certify exact facial identity, wiring, equipment markings or office signage. No network-speed or physical-device benchmark was run.
