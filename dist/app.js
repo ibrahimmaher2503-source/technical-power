@@ -15,7 +15,7 @@ const paths = {
  building:'M4 22V3h12v19M16 9h5v13M1 22h22M8 7h4M8 11h4M8 15h4M8 19h4', chart:'M3 21h19M6 18v-5h3v5M12 18V9h3v9M18 18V4h3v14', refresh:'M21 8A9 9 0 0 0 5 5L2 8M2 3v5h5M3 16a9 9 0 0 0 16 3l3-3M22 21v-5h-5',
  case:'M3 7h18v15H3zM8 7V3h8v4M3 12h18M10 12v3h4v-3', menu:'M3 6h18M3 12h18M3 18h18', close:'m5 5 14 14M5 19 19 5', chevron:'m6 9 6 6 6-6', expand:'M8 2H2v6M16 2h6v6M2 16v6h6M22 16v6h-6', leaf:'M3 21 17 7M4 16C-2 3 12 6 21 2c1 15-6 20-17 14'
 };
-function icon(name, cls='') { return `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[name] || paths.bolt}"/></svg>`; }
+function icon(name, cls='') { return `<svg class="icon ${name==='arrow'?'directional-icon ':''}${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[name] || paths.bolt}"/></svg>`; }
 function bi(ar, en, cls='') { return `<span class="bi ${cls}" lang="${lang}" dir="${lang==='ar'?'rtl':'ltr'}">${lang==='ar'?ar:en}</span>`; }
 function heading(ar,en) {return `<div class="section-heading"><i></i><h2>${bi(ar,en)}</h2></div>`;}
 function button(ar,en,href='contact.html',style='primary') { return `<a class="button ${style}" href="${href}">${bi(ar,en)}${icon('arrow')}</a>`; }

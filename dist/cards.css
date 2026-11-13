@@ -144,9 +144,9 @@ html[dir=ltr] .faq-related .service-card .image-corner .icon { left: 9px; right:
 .quick-services h2 { font-size: 17px; line-height: 1.5; }
 .quick-services > a > .icon { width: 32px; height: 32px; }
 .service-categories { padding: 10px; gap: 6px; border-radius: var(--card-radius); }
-.service-categories > a { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 16px 10px; border: 0; border-radius: 9px; font-size: 15px; line-height: 1.5; transition: background .18s ease; }
+.service-categories > a { display: flex; flex-direction: column; align-items: center; gap: 12px; min-width: 0; padding: 16px 10px; border: 0; border-radius: 9px; font-size: 15px; line-height: 1.5; transition: background .18s ease; }
 .service-categories > a .icon { width: 30px; height: 30px; margin: 0; }
-.service-categories > a .bi { text-align: center; }
+.service-categories > a .bi { min-width: 0; overflow-wrap: anywhere; text-align: center; }
 .filter { min-height: 54px; border-radius: 10px; box-shadow: none; background: #fff; gap: 12px; }
 .filter.selected { box-shadow: 0 3px 9px #ce142119; }
 .about-preview { border-radius: var(--card-radius); }
